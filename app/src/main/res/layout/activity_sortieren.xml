@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sortieren"
+    android:background="@color/colorBackground">
+
+    <ImageView
+        android:id="@+id/imageViewWeiter2"
+        android:layout_width="77dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="weiterButtonClick"
+        android:scaleType="fitCenter"
+        android:text="@string/weiter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/vor"
+        tools:background="@drawable/roundbutton" />
+
+    <ProgressBar
+        android:id="@+id/progressBarSortieren"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:progress="0"
+        android:progressTint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewWeiter2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewWeiter2" />
+
+    <ImageView
+        android:id="@+id/imageViewRockig"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewRomantisch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewFigurbetont"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewElegant"
+        app:srcCompat="@drawable/rockig4"
+        android:onClick="setNumber"/>
+
+    <ImageView
+        android:id="@+id/imageViewCasual"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewFigurbetont"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewElegant"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewNachhaltig"
+        app:srcCompat="@drawable/casual4"
+        android:onClick="setNumber" />
+
+    <ImageView
+        android:id="@+id/imageViewExzentrisch"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewElegant"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewNachhaltig"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSortieren"
+        app:srcCompat="@drawable/exzentrisch4"
+        android:onClick="setNumber"/>
+
+    <ImageView
+        android:id="@+id/imageViewNachhaltig"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="setNumber"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewCasual"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewExzentrisch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSortieren"
+        app:srcCompat="@drawable/nachhaltig4" />
+
+    <ImageView
+        android:id="@+id/imageViewElegant"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewRockig"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCasual"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewExzentrisch"
+        app:srcCompat="@drawable/elegant4"
+        android:onClick="setNumber"/>
+
+    <ImageView
+        android:id="@+id/imageViewFigurbetont"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewSportlich"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewRockig"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCasual"
+        app:srcCompat="@drawable/figurbetont4"
+        android:onClick="setNumber"/>
+
+    <ImageView
+        android:id="@+id/imageViewSportlich"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/buttonDelete"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewRomantisch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewFigurbetont"
+        app:srcCompat="@drawable/sportlich4"
+        android:onClick="setNumber" />
+
+    <ImageView
+        android:id="@+id/imageViewRomantisch"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewSportlich"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewSportlich"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewRockig"
+        app:srcCompat="@drawable/romantisch4"
+        android:onClick="setNumber"/>
+
+    <TextView
+        android:id="@+id/textViewSortieren"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="@string/sortieren"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/numberNachhaltig"
+        android:layout_width="37dp"
+        android:layout_height="32dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/imageViewNachhaltig"
+        app:layout_constraintTop_toTopOf="@+id/imageViewNachhaltig"
+        app:srcCompat="@drawable/icon1" />
+
+    <ImageView
+        android:id="@+id/numberExzentrisch"
+        android:layout_width="37dp"
+        android:layout_height="32dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/imageViewExzentrisch"
+        app:layout_constraintTop_toTopOf="@+id/imageViewExzentrisch"
+        app:srcCompat="@drawable/icon2" />
+
+    <ImageView
+        android:id="@+id/numberCasual"
+        android:layout_width="37dp"
+        android:layout_height="32dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/imageViewCasual"
+        app:layout_constraintTop_toTopOf="@+id/imageViewCasual"
+        app:srcCompat="@drawable/icon3" />
+
+    <ImageView
+        android:id="@+id/numberElegant"
+        android:layout_width="37dp"
+        android:layout_height="32dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/imageViewElegant"
+        app:layout_constraintTop_toTopOf="@+id/imageViewElegant"
+        app:srcCompat="@drawable/icon4" />
+
+    <ImageView
+        android:id="@+id/numberFigurbetont"
+        android:layout_width="37dp"
+        android:layout_height="32dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/imageViewFigurbetont"
+        app:layout_constraintTop_toTopOf="@+id/imageViewFigurbetont"
+        app:srcCompat="@drawable/icon5" />
+
+    <ImageView
+        android:id="@+id/numberRockig"
+        android:layout_width="37dp"
+        android:layout_height="32dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/imageViewRockig"
+        app:layout_constraintTop_toTopOf="@+id/imageViewRockig"
+        app:srcCompat="@drawable/icon6" />
+
+    <ImageView
+        android:id="@+id/numberSportlich"
+        android:layout_width="37dp"
+        android:layout_height="32dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/imageViewSportlich"
+        app:layout_constraintTop_toTopOf="@+id/imageViewSportlich"
+        app:srcCompat="@drawable/icon7" />
+
+    <ImageView
+        android:id="@+id/numberRomantisch"
+        android:layout_width="37dp"
+        android:layout_height="32dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/imageViewRomantisch"
+        app:layout_constraintTop_toTopOf="@+id/imageViewRomantisch"
+        app:srcCompat="@drawable/icon8" />
+
+    <ImageButton
+        android:id="@+id/buttonDelete"
+        android:layout_width="60dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/roundbutton"
+        android:padding="15dp"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        android:onClick="restartButtonClick"
+        app:layout_constraintBottom_toTopOf="@+id/progressBarSortieren"
+        app:layout_constraintEnd_toStartOf="@+id/buttonundo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSportlich"
+        app:srcCompat="@drawable/icontrash" />
+
+
+    <ImageButton
+        android:id="@+id/buttonundo"
+        android:layout_width="60dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/roundbutton"
+        android:onClick="undoButton"
+        android:padding="15dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/progressBarSortieren"
+        app:layout_constraintStart_toEndOf="@+id/buttonDelete"
+        app:srcCompat="@drawable/iconsundo" />
+
+</android.support.constraint.ConstraintLayout>

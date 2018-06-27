@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Beratungsapp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="WuCuBerater_Logo">Wundercurves Berater Logo</string>
+    <string name="HauptmenueStylequiz">Stylequiz</string>
+    <string name="HauptmenueFigurtyp">Figurtyp</string>
+    <string name="Beginnen">Quiz beginnen</string>
+    <string name="weiter">Weiter</string>
+    <string name="Auswertung">Zur Auswertung</string>
+    <string name="Hauptmenue">Zum Hauptmenü</string>
+
+    <string name="AuswertungExzentrisch">Wo  bist  du,  wenn  man  dich  sucht?  Ganz  klar:  im  Mittelpunkt  jedes  Geschehens!  Mit  bunten,  kräftigen  Looks  und  hervorstechenden  Accessoires  drückst  du  deinen  sehnlichsten  Wunsch  aus  aufzufallen.  Was  einige  als  schräg  bezeichnen  mögen,  empfindest  du  als  neue  Möglichkeit  deinem  Inneren  Ausdruck  zu  verleihen:  Ungewöhnliche  Farbkombinationen,  atypische  Schnittmuster,  gegensätzliche  Stoffmuster-  und  Arten  und  starke  Kontraste,  du  setzt  mit  deiner  Kleidung  ein  Statement.  Egal  ob  von  Designern,  handmade  oder  secondhand:  du  bist  besonders  und  zeigst  das  durch  einzigartige  Mode-Outfits!</string>
+    <string name="AuswertungRomantisch">Du  bist  eine  warme  und  herzliche  Persönlichkeit  mit  einer  Vorliebe  für  das  Träumerische!  Durch  sanfte  Farben,  fließende  Materialien  und  einer  Affinität  für  zwanglose  Zierelemente  wie  Spitzen,  Rüschen  und  Schleifen  hebst  du  dich  von  deinem  Umfeld  ab.  Deine  Kleiderwahl  ist  besonders  geprägt  durch  einen  Wunsch  nach  Harmonie,  was  nur  unschwer  an  ihrer  Farbenpracht  sowie  einem  Faible  für  Blumenmuster  zu  erkennen  ist.  Du  schlägst  keine  Gelegenheit  aus  deinen  Körper  in  stilvoll-anmutigen  Kleidern  und  Röcken  zu  verpacken.</string>
+    <string name="AuswertungRockig">Ob  nun  Lederjacke,  Bikerboots  oder  Bandshirts:  eins  ist  völlig  klar:  du  rockst!    Mit  figurbetonten  oder  weiteren  Looks,  dunklen  Farben  oder  neutralen  Tönen,  Gürtel  oder  Nieten,  du  bist  die  perfekte  Mischung  aus  Eleganz,  Wildheit  und  Sexyness!  Dass  man  dich  manchmal  mit  zerrissenen  Hosen  antrifft,  betont  dies  nur  stärker,  ebenso  wie  deine  Vorliebe  für  Leder,  Strick  und  Nieten. </string>
+    <string name="AuswertungCasual">Ob  auf  der  Arbeit,  einem  Cocktail-Abend  mit  Freunden  oder  einer  wilden  Party,  dein  Stil  passt  einfach  zu  jeder  Gelegenheit!  Dabei  steht  vor  allem  eins  für  dich  im  Vordergrund:  Bequemlichkeit!  Dennoch  triffst  du  mit  deinen  lockeren,  schlichten,  aber  zeitgleich  stilistischen  und  zwanglosen  Looks  immer  den  richtigen  Ton.  Du  bevorzugst  dezente  Farben,  praktische  Jeans  bis  hin  zum  Blazer  und  manchmal  können  einfache  Stoffmuster  und  filigrane  Accessoires  deine  Outfits  noch  ergänzen.</string>
+    <string name="AuswertungElegant">Wie  der  Name  schon  anklingen  lässt:  Du  bist  die  Anmut  in  Person!  Du  legst  großen  Wert  auf  Kleidung  hochwertiger  Qualität,  Materialien  wie  Samt  oder  Kaschmir  schmücken  deinen  Kleiderschrank  und  filigraner  Schmuck,  stilvolle  Halstücher  und  edle  Ohren  zählst  du  gerne  zu  deinen  Accessoires.  Um  deiner  Eleganz  Ausdruck  zu  verleihen  bedienst  du  dich  bei  deinen  Outfits  vor  allem  an  neutralen  Farben,  Karomuster  und  Kleidungsstücken  wie  Polohemden,  Stoffhosen  und  Pumps.</string>
+    <string name="AuswertungFigurbetont">Du  hast  einen  tollen  Körper  und  das  sollen  auch  gerne  alle  sehen!  Dein  oberstes  Ziel  ist  es  deine  Weiblichkeit  möglichst  optimal  in  Szene  zu  setzen  mit  Hilfe  enger,  betonender  Kleidung,  auch  gerne  gepaart  mit  ein  wenig  mehr  Haut.  Figurnahe  Schnitte,  weiche  Stoffe  und  neutrale  Farben  unterstützen  dich  dabei,  taillierte  Blusen,  knackige  Röhrenjeans  und  klassische  Highheels  unterstreichen  deine  verwegene  Seite.  Du  willst  mit  deiner  Figur    Akzente  setzen  und  dafür  darf  dein  Outfit  auch  gerne  mal  ein  wenig  gewagter  sein.</string>
+    <string name="AuswertungNachhaltig">Mainstream  und  unnatürlich  -  Du?  Selten  haben  Bezeichnung  schlechter  gepasst!  Und  das  beweist  du  auch  mit  deinen  Looks:  Naturmaterialien  wie  Leder,  Leinen  oder  Fell,  warme  Erdtöne  und  weite,  fließende  Outfits  gepaart  mit  lässigen  Fransen,  Stickereien  und  malerischen  Blumenmustern.  Dabei  erkennt  man  schnell,  dass  du  besonders  draußen  aufblühst.  Und  dort  darf  es  auch  gern  mal  ein  bezauberndes  Sommerkleid,  eine  lockere  Schlaghose  oder  eine  bestickte  Bluse  sein,  verziert  mit  verspielten  Federn,  Türkis-Schmuck  oder  einem  coolen  Schlapphut.</string>
+    <string name="AuswertungSportlich">Nichts  geht  über  eine  lockere  Kombination  aus  Sportjacke,  Trainingshose  und  den  passenden  Sneakers  dazu!  Damit  es  bequem,  aber  zeitgleich  modisch  ist,  darf  es  für  dich  auch  gerne  mal  ein  Trikot  mit  lebhaftem  Logo  von  Nike,  Adidas  und  co.  sein.  Da  du  viel  unterwegs  und  mobil  bist,  bevorzugst  du  synthetische  Stoffe  und  weite  Kleidung  ohne  viele  Details  und  Accessoires,  bist  aber  nicht  abgeneigt  deinen  stylischen  Look  mit  praktischen  Extras  wie  Uhren  und  Umhängetaschen  abzurunden.</string>
+
+    <string name="HeadlineExzentrisch">auffällig-exzentrische  Typ</string>
+    <string name="HeadlineRomantisch">verspielt-romantische  Typ</string>
+    <string name="HeadlineRockig">rockige  Typ</string>
+    <string name="HeadlineCasual">casual-legere  Typ</string>
+    <string name="HeadlineElegant">elegante  Typ</string>
+    <string name="HeadlineFigurbetont">feminin-figurbetonte Typ</string>
+    <string name="HeadlineNachhaltig">nachhaltige Typ</string>
+    <string name="HeadlineSportlich">sportliche Typ</string>
+    
+    <string name="FrageExzentrisch">\n Du  liebst  es  aufzufallen,  trägst  am  liebsten  knallige  Farben,  so  viele  auffällige  Accessoires  (Lippenstift,  Schmuck,  Gürtel,...)  wie  möglich  und  für  dich  kann  kein  Outfit  zu  gewagt  sein.\n </string>
+    <string name="FrageRomantisch">\n Du  bist  eine  romantische  und  zugleich  verspielte  Frohnatur,  der  es  wichtig  ist,  dass  Farben  ihrer  Outfits  miteinander  harmonieren  und  die  diese  gern  mit  Zierelementen  (Schleife,  Spitze,  Blume,...)  erweitert.\n </string>
+    <string name="FrageRockig">\n Du  bist  eine  Queen  of  Rock!  Wie  gern  trägst  du  dunkle  Farben,  Jeans  und  Leder  und  rundest  deinen  Style  durch  Accessoires  wie  Nieten  und  Ösen  ab?\n </string>
+    <string name="FrageCasual">\n Dein  Style  passt  zu  nahezu  jedem  Anlass!  Wie  wichtig  ist  es  dir,  dass  dein  Outfit  gemütlich  und  locker  ist,  aber  zeitgleich  vornehm  und  stylisch  sein  kann?\n </string>
+    <string name="FrageElegant">\n Ob  zu  einer  Cocktailparty  oder  zu  einer  gemütlichen  Runde  mit  deinen  Freunden:  wie  sehr  bevorzugst  du  vornehme  Kleidung  hochwertiger  Qualität,  die  deine  anmutige  Persönlichkeit  hervorhebt?\n </string>
+    <string name="FrageFigurbetont">\n Du  verführst  mit  deinem  Aussehen  und  spielst  mit  deiner  Weiblichkeit!  Dein  Outfit  muss  deine  Kurven  und  dein  Dekolleté  betonen  und  darf  auch  gerne  mal  ein  wenig  verwegen  sein.\n </string>
+    <string name="FrageAlternativ">\n Du  liebst  es  draußen  zu  sein,  kannst  nicht  genug  Blumenmuster  haben  und  vor  allem  Erdtöne  und weich  fallende  Stoffe  sind  deine  Favoriten. \n  Wie  sehr  erkennt  man  das  auch  an  deinem  Style? \n</string>
+    <string name="FrageSportlich">\n Turnschuhe  in  Kombination  mit  einer  Sportjacke  sind  dein  Alltagsoutfit.  Accessoires?  Brauchst  du  nicht!  Stattdessen  hast  du  Logoshirts  oder  Trikots  in  deinem  Kleiderschrank.\n </string>
+
+    <string name="stimmeEherZu">Stimme eher zu</string>
+    <string name="stimmeEherNichtZu">Stimme eher nicht zu</string>
+    <string name="stimmeZu">Stimme zu</string>
+    <string name="stimmeNichtZu">Stimme nicht zu</string>
+    <string name="teilsTeils">Teils teils</string>
+
+    <string name="like">like</string>
+    <string name="dislike">dislike</string>
+
+    <string name="sortieren">Sortiere die Bilder nach deinen Präferenzen. Tippe dazu einfach die Bilder nachheinander, beginnend bei deinem Favorit, an.</string>
+    <string name="farbenquiz">Welche Farben gefallen dir am besten in deinem Style?</string>
+    <string name="wordquiz">Welche dieser Worte beschreiben deinen Style am besten?</string>
+    <string name="pictureqiuz">Wische nach rechts oder links, um ein Outfit zu liken oder disliken.</string>
+
+    <string name="word1">Verrückt</string>
+    <string name="word2">Skurill</string>
+    <string name="word3">Mehrfarbig</string>
+    <string name="word4">Ausgefallen</string>
+
+    <string name="word5">Blumig</string>
+    <string name="word6">Gefühlvoll</string>
+    <string name="word7">Einfarbig</string>
+    <string name="word8">Intensiv</string>
+
+    <string name="word9">Rebellisch</string>
+    <string name="word10">Frech</string>
+
+
+    <string name="word11">Bequem</string>
+    <string name="word12">Schlicht</string>
+    <string name="word13">Zwanglos</string>
+
+    <string name="word14">Qualitativ</string>
+    <string name="word15">Edel</string>
+    <string name="word16">Dezent</string>
+
+    <string name="word17">Filigran</string>
+    <string name="word18">Feminin</string>
+
+    <string name="word19">Funktional</string>
+    <string name="word20">Nachhaltig</string>
+    <string name="word21">Süß</string>
+
+</resources>

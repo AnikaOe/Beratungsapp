@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Farbenquiz"
+    android:background="@color/colorBackground">
+
+    <ProgressBar
+        android:id="@+id/progressBarFarben"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:progress="91"
+        android:progressTint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewWeiter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewWeiter" />
+
+    <TextView
+        android:id="@+id/textViewFarbe"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="@string/farbenquiz"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toTopOf="@+id/ViewColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <view
+        android:id="@+id/ViewColor"
+        class="android.support.constraint.ConstraintLayout"
+        id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="381dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewWeiter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFarbe">
+
+        <ImageView
+            android:id="@+id/imageViewWeiss"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:onClick="colorClick"
+            app:layout_constraintBottom_toTopOf="@+id/imageViewRot"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewSchwarz"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/tshirtweiss" />
+
+        <ImageView
+            android:id="@+id/imageViewSchwarz"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:onClick="colorClick"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewWeiss"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewBraun"
+            app:layout_constraintStart_toEndOf="@+id/imageViewWeiss"
+            app:layout_constraintTop_toTopOf="@+id/imageViewWeiss"
+            app:srcCompat="@drawable/tshirtschwarz" />
+
+        <ImageView
+            android:id="@+id/imageViewBraun"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewSchwarz"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewSchwarz"
+            app:layout_constraintTop_toTopOf="@+id/imageViewSchwarz"
+            app:srcCompat="@drawable/tshirtbraun"
+            android:onClick="colorClick"/>
+
+        <ImageView
+            android:id="@+id/imageViewRot"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:onClick="colorClick"
+            app:layout_constraintBottom_toTopOf="@+id/imageViewBlau"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewLila"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewWeiss"
+            app:srcCompat="@drawable/tshirtrot" />
+
+        <ImageView
+            android:id="@+id/imageViewLila"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:onClick="colorClick"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewRot"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewPink"
+            app:layout_constraintStart_toEndOf="@+id/imageViewRot"
+            app:layout_constraintTop_toTopOf="@+id/imageViewRot"
+            app:srcCompat="@drawable/tshirtlila" />
+
+        <ImageView
+            android:id="@+id/imageViewPink"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewLila"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewLila"
+            app:layout_constraintTop_toTopOf="@+id/imageViewLila"
+            app:srcCompat="@drawable/tshirtpink"
+            android:onClick="colorClick"/>
+
+        <ImageView
+            android:id="@+id/imageViewBlau"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:onClick="colorClick"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewGruen"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewRot"
+            app:srcCompat="@drawable/tshirtblau" />
+
+        <ImageView
+            android:id="@+id/imageViewGruen"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:onClick="colorClick"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewBlau"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewGelb"
+            app:layout_constraintStart_toEndOf="@+id/imageViewBlau"
+            app:layout_constraintTop_toTopOf="@+id/imageViewBlau"
+            app:srcCompat="@drawable/tshirtgruen" />
+
+        <ImageView
+            android:id="@+id/imageViewGelb"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:onClick="colorClick"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewGruen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewGruen"
+            app:layout_constraintTop_toTopOf="@+id/imageViewGruen"
+            app:srcCompat="@drawable/tshirtgelb" />
+
+    </view>
+
+    <ImageView
+        android:id="@+id/imageViewWeiter"
+        android:layout_width="77dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="weiterButtonClick"
+        android:scaleType="fitCenter"
+        android:text="@string/weiter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/vor"
+        tools:background="@drawable/roundbutton" />
+
+
+</android.support.constraint.ConstraintLayout>
